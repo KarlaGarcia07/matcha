@@ -12,34 +12,106 @@
     p{
         color: #46484c; 
     }
-    p2{
-        color: #46484c; 
+    
+    .header{
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40;
+        font-size: 0px;
     }
+       li{
+          display: inline;
+          margin: 25px 25px 25px 25px;
+          margin: left: 25px;
+       } 
 
-    button{
-        color: #fff; 
-        background-color: #025157 ;
+       header > * {
+          display: inline-block;
+          font-size: 16px;
+          vertical-align: middle;
+          height: 100%;
+          line-height: 45px;
+          font-family: sans-serif;
+       }
+       .logo {
+        width: 10%;
+    
     }
+    .logo > img {
+        width: 50%;
+    }
+        .navbar{
+        width: 70%;  
+        text-align: center;
+        font-weight: 500;  
+        }
+       .action{
+        width: 15%;
+        text-align: right;
+        font-weight: 600;
+       }
+       .main{
+        margin-top: 140px;
+        text-align: center;
+       }
+
+        .butto1{
+            font-size: 14px;
+            padding: 14px 10px;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+            background-color: #67b54d;
+
+
+        }
+
  </style>
     </head>
+    <header class="header">
+        <a class="logo"><img  src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png"  alt= "Mi imagen" > </a>
+        <nav class="navbar" >
+           <ul style="color: #025157;">
+            <li> Plataforma </li>
+            <li> Proyecto </li>
+            <li> Cliente </li>
+            <li> Recurso </li>
+           </ul> 
+        </nav>
+        <div class="action">  
+        <a style= "color: #67b54b"> Sig in
+        </a>
+            <button  class="butto1"  type="submit" >
+                Star free trial</button>
+        </div>  
+
+    </header>
+
     <body>
+        <section class="main">
+ 
+        
     <!-- Aqui va el contenido de mi sitio-->
     <h1>Build your blog. Build your business.</h1>
      <p>
         Instantly publish articles, drive more traffic, grow your email list,
         and see your blog’s impact on sales.
       </p>
-      <p2>
-        Start publishing today with a <strong>free 7-day trial.</strong>
-        <br>
-        <strong>No credit card required. </strong>
-      </p> 
+      <br/>
       <form>
-         <input type="email" />
-         <button type="submit">
-            Try it now &rarr;
-         </button>
-      </form>
-      <img src=" https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi etiqueta "/>
+        <input type="email" placeholder="ingresa tu correo" />
+        <button type="submit" style="background-color: #67b54b;" >
+           Try it now &rarr;
+        </button>
+     </form>
+      <p>
+        <br/>
+        Start publishing today with a <strong>free 7-day trial.</strong>
+        <br/>
+        <p> <strong>No credit card required. </strong></p>
+      </p> 
+      
+      <img src=" https://s3-eu-west-1.amazonaws.com/tpd/logos/4be27a080000640005083b6d/0x0.png" alt="Mi etiqueta"/>
+    </section>
     </body>
 </html>
