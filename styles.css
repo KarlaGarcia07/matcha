@@ -324,7 +324,11 @@ button{
         display: none;
     }
     .feature-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 80px;
+        display: grid;
+        gap: 12px;
+        padding: 36px;
+        border-radius: 12px;       
     }
     .feature-grid > img {
         display: none;
